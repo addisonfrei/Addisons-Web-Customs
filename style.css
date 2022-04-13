@@ -3,15 +3,29 @@ body {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7f/Code_on_computer_monitor_%28Unsplash%29.jpg");
     background-size: cover;
     background-position: center;
-    opacity: 10.0;
 }
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
+    font-size: 60px;
+    color: white;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
 }
 a:active {
-    color: blue;
+    color: lightblue;
 }
 a:visited {
-    color:purple;
+    color: pink;
+}
+div {
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+    font-size: larger;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
