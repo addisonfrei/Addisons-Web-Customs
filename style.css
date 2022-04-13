@@ -1,7 +1,17 @@
 body {
     background: rgb(19, 153, 206);
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7f/Code_on_computer_monitor_%28Unsplash%29.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 10.0;
 }
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color:purple;
 }
